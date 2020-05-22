@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stratum Analytics | Analytics Consulting</title>
+    <link rel="stylesheet" href="static/bulma.css" />
+  </head>
+  <style>
+    .service {
+      min-height: 220px;
+      background-size: cover;
+      background-position: top right;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      color: #bfbfbf;
+    }
+    .level_industry {
+      min-height: 190px;
+    }
+    .bg_fix {
+      background-size: cover;
+      background-position: top right;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    .zoom_p {
+      overflow: hidden;
+      border-radius: 3px;
+    }
+    .zoom_c {
+      transition: all 0.3s ease;
+    }
+    .zoom_c:hover {
+      transform: scale(1.03);
+    }
+    .text-bg-clr {
+      background-color: rgba(51, 51, 51, 0.7);
+      padding: 10px;
+      color: cornsilk;
+      border-radius: 7px;
+    }
+    .navbar-item {
+      color: cornsilk;
+    }
+  </style>
+  <body>
+    <div
+      class="hero is-fullheight"
+      style="
+        background-image: url('static/img/home_hero.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 90vh;
+      "
+    >
+      <div class="hero-head">
+        <div class="navbar is-transparent">
+          <div class="navbar-brand">
+            <div class="navbar-item">
+              <p class="is-size-4">Stratum Analytics</p>
+            </div>
+            <a class="navbar-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a href="#home" class="navbar-item is-tab">Home</a>
+              <a href="#service" class="navbar-item is-tab">Service</a>
+              <a href="#industry" class="navbar-item is-tab">Industry</a>
+              <a href="#drone" class="navbar-item is-tab">Drone</a>
+              <a href="#about" class="navbar-item is-tab">About</a>
+              <a href="#contact" class="navbar-item is-tab">Contact</a>
+              <a href="#jobs" class="navbar-item is-tab">Jobs</a>
+              <div class="navbar-item">
+                <a href="/signup" class="button is-outlined is-light">Signup</a>
+              </div>
+              <div class="navbar-item">
+                <a href="/login" class="button is-link">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-body">
+        <div class="title is-size-3 is-size-6-mobile has-text-white">
+          Transforming Todays <br />
+          buissness for a successful <br />
+          tommorow
+        </div>
+      </div>
+    </div>
+    <div class="section" style="padding-top: 0px;">
+      <p class="has-text-centered is-size-2 has-text-weight-medium section">
+        <span style="border-bottom: 2px solid #333333; padding-bottom: 10px;">
+          Our Services
+        </span>
+      </p>
+      <div class="">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent is-vertical">
+            <div class="tile is-child zoom_p">
+              <div
+                class="notification service zoom_c"
+                style="
+                  background-image: url('static/img/services/service1.jpg');
+                "
+              >
+                <p class="title">Buisnees Analytics</p>
+                <p class="is-size-5 is-size-6-mobile">
+                  Discover insight, <br class="is-hidden-tablet" />
+                  bring efficiency <br />and manage
+                  <br class="is-hidden-tablet" />
+                  business successfully.
+                </p>
+              </div>
+            </div>
+            <div class="tile is-child zoom_p">
+              <div
+                class="zoom_c notification service"
+                style="
+                  background-image: url('static/img/services/service3.jpg');
+                  background-position: center;
+                "
+              >
+                <div class="title">Drone Services & Analytics</div>
+                <div class="subtitle is-size-6-mobile">
+                  Unique combination of <br class="is-hidden-tablet" />
+                  Engineering <br />
+                  and Analytics for <br />
+                  next generation business <br />
+                  solutions.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <div class="tile is-child zoom_p">
+              <div
+                class="service notification zoom_c"
+                style="
+                  background-image: url('static/img/services/service2.jpg ');
+                "
+              >
+                <div class="title">Business Intelligence</div>
+                <div class="subtitle is-size-6-mobile">
+                  Discover insight, bring <br />
+                  efficiency and manage <br />
+                  business successfully.
+                </div>
+              </div>
+            </div>
+            <div class="tile is-child zoom_p">
+              <div
+                class="zoom_c notification service"
+                style="
+                  background-image: url('static/img/services/service4.jpg');
+                "
+              >
+                <div class="title">Artificial Intelligence</div>
+                <div class="subtitle is-size-6-mobile">
+                  Adapt from <br class="is-hidden-tablet" />
+                  experiences, perform <br />
+                  human-like tasks and <br />
+                  discover unexplored <br class="is-hidden-tablet" />
+                  frontiers.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <p class="title has-text-weight-medium has-text-centered">
+        <span style="border-bottom: 2px solid #333333; padding-bottom: 10px;">
+          Industry Solutions</span
+        >
+      </p>
+      <div class="section container">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent is-vertical">
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry1.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Financial <br />
+                      Services
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry2.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Retail
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry3.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Automobile
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry4.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Telecom
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry5.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Healthcare
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry6.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Technology
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent is-vertical">
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry7.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Manufacturing
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="zoom_p tile is-child">
+              <div
+                class="has-background-dark notification bg_fix zoom_c"
+                style="
+                  background-image: url('static/img/industry/industry8.jpg');
+                "
+              >
+                <div class="level is-mobile level_industry">
+                  <p class="level-item title has-text-weight-normal">
+                    <span class="text-bg-clr">
+                      Insurance
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer has-background-dark">
+      <div class="content">
+        <p class="has-size-large">
+          any details
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
